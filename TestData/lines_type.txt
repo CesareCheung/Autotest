@@ -1,0 +1,6 @@
+#线路名称|线路英文名称|标签信息
+Autotest线路|testlines|测试tag
+Autotest线路1|test1|测试1
+Autotest线路2|test2|测试1
+Autotest线路3|test3|测试1
+Autotest线路4|test4|测试1

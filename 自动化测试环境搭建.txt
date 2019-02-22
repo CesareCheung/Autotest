@@ -1,0 +1,8 @@
+1、部署 Python
+2、部署 Pycharm
+3、安装第三方模块：pip install -U 模块名称
+    pip install -U selenium
+    pip install htmlreport
+    pip ddt
+4、将浏览器驱动放入浏览器安装目录下
+5、将浏览器安装目录放入环境变量 path 中
