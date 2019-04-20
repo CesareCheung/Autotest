@@ -1,21 +1,23 @@
-1、部署 Python
-2、部署 Pycharm
-3、安装第三方模块：pip install -U 模块名称
-    pip install -U selenium
-    pip install htmlreport
-    pip ddt
-4、将浏览器驱动放入浏览器安装目录下
-5、将浏览器安装目录放入环境变量 path 中
 
 框架结构：
+
 Business:业务相关公共模块，如登录
+
 Common：业务无关公共模块，如读取文件
+
 PageObject:页面元素封装
+
 TestCase：测试用例层
+
 TestData:测试数据
+
 TestSuite:测试套件
+
 browser.ini:运行浏览器配置文件
+
 run.py:运行文件
+
+
 
 
 测试用例
