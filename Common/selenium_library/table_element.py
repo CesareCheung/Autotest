@@ -1,3 +1,4 @@
+# 表格（table）中单元格的文本内容封装
 from .base import Base
 
 
