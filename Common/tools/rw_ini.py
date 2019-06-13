@@ -1,4 +1,4 @@
-# 读取配置文件脚本
+# 读取配置文件封装
 
 from configparser import ConfigParser
 
