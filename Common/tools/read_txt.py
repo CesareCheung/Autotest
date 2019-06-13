@@ -1,4 +1,5 @@
-# 读取txt格式文件
+# 读取txt格式文件封装
+
 def read_txt(file):
     L = []
     with open(file, 'r', encoding='utf-8') as f:
