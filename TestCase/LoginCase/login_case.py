@@ -1,5 +1,5 @@
 import unittest
-from Business.Base_url import url_index
+from Business.Base_url import url
 import ddt
 from Common.tools.read_txt import read_txt
 from HTMLReport import logger
@@ -22,7 +22,7 @@ class Test_login(unittest.TestCase):
     @ddt.data(*read_txt('TestData/login_user_password.txt'))
     def test_login(self, username, password, assert_type):
         se = SeleniumBase(self.driver)
-        se.get(url_index)
+        se.get(url)
         login(self.driver, username, password)
         se.add_page_screen_shot()
 

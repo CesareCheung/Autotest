@@ -1,6 +1,6 @@
 import unittest
 import ddt
-from Business.Base_url import url_index
+from Business.Base_url import url
 from Business.login_business import login
 from Business.sync_user_data import acquire_user, release_user
 from Common.selenium_library import SeleniumBase
@@ -28,7 +28,7 @@ class Test_Itinerary_Test(unittest.TestCase):
         try:
             username, password = self.user
             se = SeleniumBase(self.driver)
-            se.get(url_index)
+            se.get(url)
             login(self.driver, username, password)
             index = Index_Page(self.driver)
             index.click_business()

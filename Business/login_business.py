@@ -1,4 +1,4 @@
-# 登录公共业务流，用于执行测试用例前进行账户的登录
+# 登录公共模块业务流，用于执行测试用例前调用进行账户的登录
 
 from Page_Object.Common_Page.login_page import Login_Page
 from HTMLReport import logger

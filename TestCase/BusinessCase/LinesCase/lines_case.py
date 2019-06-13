@@ -1,7 +1,7 @@
 import time
 import unittest
 import ddt
-from Business.Base_url import url_index
+from Business.Base_url import url
 from Common.tools.read_txt import read_txt
 from Business.login_business import login
 from Common.selenium_library import SeleniumBase
@@ -31,7 +31,7 @@ class Test_Business(unittest.TestCase):
         try:
             username, password = self.user
             se = SeleniumBase(self.driver)
-            se.get(url_index)
+            se.get(url)
             login(self.driver, username, password)
             index = Index_Page(self.driver)
             index.click_business()
@@ -56,7 +56,7 @@ class Test_Business(unittest.TestCase):
         try:
             username, password = self.user
             se = SeleniumBase(self.driver)
-            se.get(url_index)
+            se.get(url)
             login(self.driver, username, password)
             index = Index_Page(self.driver)
             index.click_business()
