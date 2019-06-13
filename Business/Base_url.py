@@ -1,1 +1,2 @@
-url_index="http://xxx.com"
+# 测试地址
+url="http://xxx.com"
