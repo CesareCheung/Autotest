@@ -1,4 +1,4 @@
-# 用于获取登录业务中多线程的进行登录
+# 用于获取登录业务中，多线程登录
 
 import threading
 import time
