@@ -9,6 +9,7 @@ from .select_element import SelectElement
 from .table_element import TableElement
 from .window import Window
 
-class SeleniumBase(Alert,Browser,Cookie,Element,Frame,JavaScript,Screenshot,SelectElement,TableElement,Window):
+
+class SeleniumBase(Alert, Browser, Cookie, Element, Frame, JavaScript, Screenshot, SelectElement, TableElement, Window):
     """封装selenium基本操作"""
     pass
