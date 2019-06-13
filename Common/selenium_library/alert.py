@@ -1,3 +1,4 @@
+#  警告弹框处理封装
 from selenium.common.exceptions import TimeoutException
 from .base import Base
 from selenium.webdriver.support.wait import WebDriverWait
