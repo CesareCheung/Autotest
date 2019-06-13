@@ -1,3 +1,4 @@
+# 截图方法封装
 from HTMLReport import AddImage
 
 from .base import Base
