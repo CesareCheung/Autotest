@@ -1,6 +1,9 @@
-"""Selenium 封装基类
+"""
+Selenium 封装基类
 
-封装查找元素以及集成日志输出"""
+封装查找元素以及集成日志输出
+"""
+
 from HTMLReport import logger
 from selenium import webdriver
 from selenium.webdriver.remote.webelement import WebElement
